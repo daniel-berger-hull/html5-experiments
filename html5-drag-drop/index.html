@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <title>Testing HTML5 Native Drag & Drop</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div id="header-section">
+            <p id="page-title">Testing HTML5 Native Drag & Drop</p>
+        </div> 
+       
+
+        <div class="container">
+            <div draggable="true" class="box">A</div>
+            <div draggable="true" class="box">B</div>
+            <div draggable="true" class="box">C</div>
+          </div>
+          
+        <!-- <article id="css-click-section">
+
+            <span>click and drag the box accross the screen</span>
+            <hr>
+            <div id="box1" >1</div>
+            <div id="box2" >2</div>
+            <div id="box3" >3</div>
+        </article> -->
+
+        <br>
+        <article id="click-state-display-section">
+            <span>Mouse/Click Status:</span>
+            <hr>
+            <span id="mouse-status"></span>
+        </article>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>

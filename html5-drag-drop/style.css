@@ -1,0 +1,178 @@
+body {
+    background-color:  #EEEEEE;
+}
+
+.wrapper {
+    width: 1000px;
+    height: 600px;
+
+    margin: auto;
+
+}
+
+#header-section {
+    margin-bottom: 20px;
+    background-image: url("background.jpg");
+   
+    color: #F7BA23;
+}
+
+
+#page-title {
+    width: 70%;
+    margin: auto;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #F7BA23;
+    color: white;
+
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  
+  .box {
+    border: 3px solid #666;
+    background-color: #ddd;
+    border-radius: .5em;
+    padding: 10px;
+    cursor: move;
+  }
+
+
+
+.box.over {
+    border: 3px dotted #666;
+  }
+/* 
+#css-click-section {
+
+    width: 700px;
+    height: 500px;
+   
+    margin: auto;
+    position: relative;
+    background-color: white;
+
+     border-radius: 20px; 
+     padding: 10px; 
+}
+
+#click-state-display-section {
+
+    width: 700px;
+    height: 100px;
+   
+    margin: auto;
+    background-color: white;
+
+     border-radius: 20px; 
+     padding: 10px; 
+} */
+
+
+/* 
+#box1 {
+
+    width: 190px;
+    height: 40px;
+   
+    position: absolute;
+    top: 120px;
+    left:20px;
+
+
+    background-color: red;
+    color: white;
+
+    text-align: center;
+
+    border-width: 3px;
+    border-color: yellow;
+    /* border-style: solid; */
+
+   /* border-style:none; */
+
+    /* animation: rotation 5s infinite linear; */
+/* }
+
+#box2 {
+
+    width: 190px;
+    height: 40px;
+
+    position: absolute;
+    top: 320px;
+    left:120px;
+
+    background-color: blue;
+    color: white;
+    text-align: center;
+
+    border-width: 3px;
+    border-color: yellow;
+    border-style:none;
+
+    /* animation: rotation 6s infinite linear; */
+/*
+}
+
+#box3 {
+
+    width: 190px;
+    height: 40px;
+
+    position: absolute;
+    top: 250px;
+    left:200px;
+
+    background-color: green;
+    color: white;
+    text-align: center;
+
+    border-width: 3px;
+    border-color: yellow;
+    border-style:none;
+
+    /*animation: rotation 8s infinite linear; */
+/*} 
+
+
+/* .redbox {
+
+    width: 130px;
+    height: 40px;
+   
+    position: absolute;
+    top: 120px;
+    right:20px;
+
+
+    background-color: red;
+    color: white;
+
+    text-align: center;
+
+    animation: rotation 2s infinite linear;
+
+}  */
+
+
+/* .rotate {
+    width: 100px;
+    animation: rotation 2s infinite linear;
+    }
+
+
+    @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+} */
